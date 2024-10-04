@@ -28,13 +28,13 @@ The script will automatically install the following dependencies if they are not
 
 1. Clone this repository or download the script:
    ```
-   git clone https://github.com/RaviChan/ncm-converter.git
+   git clone https://github.com/RaviChan/ncm-batch-converter.git
    ```
    or download `ncm_converter.py` directly.
 
 2. Navigate to the script's directory:
    ```
-   cd ncm-converter
+   cd ncm-batch-converter
    ```
 
 ### Usage
@@ -53,7 +53,7 @@ This script is for personal use only. Please ensure you have the right to conver
 
 ### Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/RaviChan/ncm-converter/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/RaviChan/ncm-batch-converter/issues) if you want to contribute.
 
 ### License
 
@@ -87,13 +87,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. 克隆此仓库或下载脚本：
    ```
-   git clone https://github.com/RaviChan/ncm-converter.git
+   git clone https://github.com/RaviChan/ncm-batch-converter.git
    ```
    或直接下载 `ncm_converter.py` 文件。
 
 2. 进入脚本所在目录：
    ```
-   cd ncm-converter
+   cd ncm-batch-converter
    ```
 
 ### 使用方法
@@ -112,7 +112,7 @@ python3 ncm_converter.py /path/to/ncm/files [/path/to/output/folder]
 
 ### 贡献
 
-欢迎贡献、提出问题和功能请求。如果您想贡献，请查看 [issues 页面](https://github.com/RaviChan/ncm-converter/issues)。
+欢迎贡献、提出问题和功能请求。如果您想贡献，请查看 [issues 页面](https://github.com/RaviChan/ncm-batch-converter/issues)。
 
 ### 许可证
 
