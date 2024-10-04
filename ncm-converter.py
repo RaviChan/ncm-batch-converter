@@ -1,3 +1,28 @@
+"""
+NCM to MP3/FLAC Converter
+
+This script converts Netease Cloud Music (.ncm) files to standard audio formats
+(MP3/FLAC) while preserving metadata and album art.
+
+Usage:
+    python3 ncm_converter.py /path/to/input/folder [/path/to/output/folder]
+
+If no output folder is specified, converted files will be saved in the current
+working directory.
+
+Features:
+- Batch conversion of NCM files
+- Preserves original metadata (title, artist, album)
+- Retains album artwork
+- Automatically installs required dependencies
+
+Copyright (c) 2023 Ravi Chan
+License: MIT (see LICENSE file for details)
+
+For more information and updates, visit:
+https://github.com/your-username/ncm-converter
+"""
+
 import sys
 import subprocess
 import importlib
