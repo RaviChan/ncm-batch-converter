@@ -16,7 +16,7 @@ Features:
 - Retains album artwork
 - Automatically installs required dependencies
 
-Copyright (c) 2023 Ravi Chan
+Copyright (c) 2024 Ravi Chan
 License: MIT (see LICENSE file for details)
 
 For more information and updates, visit:
