@@ -28,7 +28,7 @@ The script will automatically install the following dependencies if they are not
 
 1. Clone this repository or download the script:
    ```
-   git clone https://github.com/your-username/ncm-converter.git
+   git clone https://github.com/RaviChan/ncm-converter.git
    ```
    or download `ncm_converter.py` directly.
 
@@ -39,13 +39,13 @@ The script will automatically install the following dependencies if they are not
 
 ### Usage
 
-Run the script from the command line, providing the path to the folder containing NCM files:
+Run the script from the command line, providing the path to the folder containing NCM files. Optionally, you can specify an output folder:
 
 ```
-python3 ncm_converter.py /path/to/ncm/files
+python3 ncm_converter.py /path/to/ncm/files [/path/to/output/folder]
 ```
 
-The converted files will be saved in the current working directory.
+If no output folder is specified, the converted files will be saved in the current working directory.
 
 ### Note
 
@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. 克隆此仓库或下载脚本：
    ```
-   git clone https://github.com/your-username/ncm-converter.git
+   git clone https://github.com/RaviChan/ncm-converter.git
    ```
    或直接下载 `ncm_converter.py` 文件。
 
@@ -98,13 +98,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 使用方法
 
-从命令行运行脚本，提供包含 NCM 文件的文件夹路径：
+从命令行运行脚本，提供包含 NCM 文件的文件夹路径。您可以选择指定一个输出文件夹：
 
 ```
-python3 ncm_converter.py /path/to/ncm/files
+python3 ncm_converter.py /path/to/ncm/files [/path/to/output/folder]
 ```
 
-转换后的文件将保存在当前工作目录中。
+如果没有指定输出文件夹，转换后的文件将保存在当前工作目录中。
 
 ### 注意事项
 
