@@ -53,7 +53,7 @@ This script is for personal use only. Please ensure you have the right to conver
 
 ### Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/your-username/ncm-converter/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/RaviChan/ncm-converter/issues) if you want to contribute.
 
 ### License
 
@@ -112,7 +112,7 @@ python3 ncm_converter.py /path/to/ncm/files [/path/to/output/folder]
 
 ### 贡献
 
-欢迎贡献、提出问题和功能请求。如果您想贡献，请查看 [issues 页面](https://github.com/your-username/ncm-converter/issues)。
+欢迎贡献、提出问题和功能请求。如果您想贡献，请查看 [issues 页面](https://github.com/RaviChan/ncm-converter/issues)。
 
 ### 许可证
 
