@@ -1,120 +1,146 @@
-# NCM to MP3/FLAC Converter | NCM 转 MP3/FLAC 转换器
+# NCM to MP3/FLAC Converter | NCMNCM to MP3/FLAC Converter GUI | 网易云音乐转码工具GUI版本 转 MP3/FLAC 转换器
 
 [English](#english) | [中文](#中文)
 
 <a name="english"></a>
 ## English
 
-This Python script allows you to batch convert Netease Cloud Music (.ncm) files to standard audio formats (MP3/FLAC) while preserving metadata and album art.
+This is a GUI version forked from the original MIT-licensed NCM batch converter, now upgraded to support graphical interface operations while maintaining full GPL-3.0-or-later compliance.
 
 ### Features
 
-- Batch conversion of NCM files to MP3 or FLAC format
-- Preserves original metadata (title, artist, album)
-- Retains album artwork
-- Automatically installs required dependencies
-- Simple command-line interface
+- 🖥️ Dual Mode:
+- - Command-line mode: ```python3 ncm_converter.py```
+- - GUI mode: ```python3 main.py``` (with progress bar and error handling)
+- 🔁 Batch conversion of NCM files to MP3/FLAC
+- 📄 Preserves metadata (title, artist, album)
+- 🎨 Retains album artwork
+- 📊 Real-time conversion progress tracking
+- 📋 Detailed logging (saved in .\log\ directory)
 
 ### Requirements
 
-- Python 3.6+
+- Python 3.14+
 - pip (Python package installer)
+- tkinter (included with standard Python installations)
 
-The script will automatically install the following dependencies if they are not present:
+The script should install the following dependencies if they are not present:
 - pycryptodome
 - mutagen
 
 ### Installation
 
 1. Clone this repository or download the script:
+   ```Bash
+   git clone https://github.com/trustedinster/ncm-batch-converter-gui.git
    ```
-   git clone https://github.com/RaviChan/ncm-batch-converter.git
-   ```
-   or download `ncm_converter.py` directly.
 
 2. Navigate to the script's directory:
+   ```Bash
+   cd ncm-batch-converter-gui
    ```
-   cd ncm-batch-converter
+3. Install dependencies
+   ```Bash
+   pip install -r requirements.txt
    ```
-
 ### Usage
 
-Run the script from the command line, providing the path to the folder containing NCM files. Optionally, you can specify an output folder:
-
+GUI Mode (Recommended for beginners):
+```Bash
+python3 main.py
 ```
+Command-line Mode (Advanced):
+```Bash
 python3 ncm_converter.py /path/to/ncm/files [/path/to/output/folder]
 ```
 
 If no output folder is specified, the converted files will be saved in the current working directory.
 
-### Note
+### License Compliance
 
-This script is for personal use only. Please ensure you have the right to convert and use these music files. Respect copyright laws and terms of service of music providers.
+- Original project (V1.0): MIT License
+- Current version (V2.0): GNU General Public License v3.0
+- All modifications comply with GPL-3.0-or-later terms
+- Source code must remain open when distributing modified versions
 
 ### Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/RaviChan/ncm-batch-converter/issues) if you want to contribute.
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Welcome contributions via [GitHub Issues](https://github.com/trustedinster/ncm-batch-converter-gui/issues). Please note:
+1. All contributions must be licensed under GPL-3.0-or-later
+2. Must preserve original copyright notices
+3. Must include source code when distributing binaries
 
 ---
 
 <a name="中文"></a>
 ## 中文
 
-这个 Python 脚本允许您批量将网易云音乐 (.ncm) 文件转换为标准音频格式（MP3/FLAC），同时保留元数据和专辑封面。
+这是基于原始MIT协议项目的二次开发GUI版本，已升级为符合GPL-3.0-or-later协议的图形界面工具。
 
 ### 功能特性
 
-- 批量将 NCM 文件转换为 MP3 或 FLAC 格式
-- 保留原始元数据（标题、艺术家、专辑）
-- 保留专辑封面
-- 自动安装所需依赖
-- 简单的命令行界面
+- 🖥️ 双模式支持:
+- - 命令行模式：python3 ncm_converter.py
+- - GUI模式：python3 main.py (带有进度条和错误处理)
+- 🔁 NCM文件批量转换MP3/FLAC
+- 📄 保留元数据（标题、艺术家、专辑）
+- 🎨 保留专辑封面
+- 📊 实时转换进度追踪
+- 📋 详细日志记录（保存在.\log\目录）
 
 ### 环境要求
 
-- Python 3.6+
+- Python 3.14+（推荐)
 - pip（Python 包安装器）
+- tkinter（标准Python发行版自带）
 
-如果以下依赖不存在，脚本将自动安装：
+以及以下第三方依赖：
 - pycryptodome
 - mutagen
 
 ### 安装
 
-1. 克隆此仓库或下载脚本：
+1. 克隆此仓库：
+   ```Bash
+   git clone https://github.com/trustedinster/ncm-batch-converter-gui.git
    ```
-   git clone https://github.com/RaviChan/ncm-batch-converter.git
-   ```
-   或直接下载 `ncm_converter.py` 文件。
 
 2. 进入脚本所在目录：
+   ```Bash
+   cd ncm-batch-converter-gui
    ```
-   cd ncm-batch-converter
+3. 安装依赖
+   ```Bash
+   pip install -r requirements.txt
    ```
 
 ### 使用方法
 
-从命令行运行脚本，提供包含 NCM 文件的文件夹路径。您可以选择指定一个输出文件夹：
-
+图形界面模式 (推荐新手使用):
+```Bash
+python3 main.py
 ```
+命令行模式 (高级用户):
+```Bash
 python3 ncm_converter.py /path/to/ncm/files [/path/to/output/folder]
 ```
 
+
 如果没有指定输出文件夹，转换后的文件将保存在当前工作目录中。
 
-### 注意事项
+### 许可证合规
 
-此脚本仅供个人使用。请确保您有权转换和使用这些音乐文件。请遵守版权法和音乐提供商的服务条款。
+- 原始项目 (V1.0)：MIT协议
+- 当前版本 (V2.0)：GNU通用公共许可证v3.0
+- 所有修改必须遵循GPL-3.0-or-later条款
+- 分发修改版本时必须保持源代码开放
 
 ### 贡献
 
-欢迎贡献、提出问题和功能请求。如果您想贡献，请查看 [issues 页面](https://github.com/RaviChan/ncm-batch-converter/issues)。
+欢迎通过 [GitHub Issues](https://github.com/trustedinster/ncm-batch-converter-gui/issues) 提交贡献，请注意：
+1. 所有贡献必须使用GPL-3.0-or-later协议
+2. 必须保留原始版权声明
+3. 分发二进制文件时必须包含源代码
 
-### 许可证
-
-该项目采用 MIT 许可证 - 详情请见 [LICENSE](LICENSE) 文件。
-
+### 特别声明
+本软件仅限个人学习使用，使用后请在24小时内删除，请勿用于商业用途。请遵守《中华人民共和国著作权法》及相关法律法规，尊重音乐版权方的合法权益。
